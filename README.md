@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Main functionalities which the app will have:
 
-Things you may want to cover:
+* Authentication (with Devise)
+* Ability to publish posts, and search and categorize them
+* Instant messaging (popup windows and a separate messenger), with the ability to create private and group conversations.
+* Ability to add users to contacts
+* Real time notifications
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
