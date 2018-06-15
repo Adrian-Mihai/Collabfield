@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   devise_for :users, :controllers => {:registrations => "registrations"}
   root to: 'pages#index'
 
+  mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
+
   # change the root devise/sessions#new to login
   devise_scope :user do
     get 'login', to: 'devise/sessions#new'
